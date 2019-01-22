@@ -33,4 +33,5 @@ def newpassword(lis):
 		password += random.choice(rlistchoice(lis))
 	print('\npassword = ' + password)
 
-newpassword(lis)
+if __name__ == '__main__':
+	newpassword(lis)
